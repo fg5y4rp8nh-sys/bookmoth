@@ -383,3 +383,26 @@ dialog::backdrop { background: rgba(20,20,20,.45); }
 .bk .cvr3d::after { display: none; }
 .bk .cvr3d img { width: auto; height: 100%; max-width: 100%; object-fit: contain; filter: drop-shadow(0 16px 18px rgba(0,0,0,.22)); }
 .product .book3d { width: min(360px, 70vw); height: auto; filter: drop-shadow(0 30px 36px rgba(60,30,20,.28)); }
+
+/* ---------- Hero v5: bigger art, calmer text, looping moth ---------- */
+.intro .wrap.hero2 { max-width: 1320px; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 24px; padding-block: 40px 48px; }
+.htext { position: relative; z-index: 3; padding-left: 8px; }
+.intro .brandword { font-size: clamp(60px, 9.4vw, 128px); }
+.htext p { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: clamp(19px, 1.7vw, 23px); line-height: 1.4; color: var(--ink-2); margin: 22px 0 32px; max-width: 22em; }
+.hart { max-width: 700px; justify-self: end; z-index: 1; }
+.brandword.fly .moth { animation: flyloop 2.6s cubic-bezier(.45,.05,.35,1) forwards; }
+@keyframes flyloop {
+  0%   { opacity: 1; transform: translate(0, 0) scale(1) rotate(0); }
+  18%  { transform: translate(-.5em, -.9em) scale(1.1) rotate(-20deg); }
+  38%  { transform: translate(calc(var(--dx) * .45), -1.35em) scale(1.15) rotate(10deg); }
+  58%  { transform: translate(calc(var(--dx) + .7em), calc(var(--dy) - .9em)) scale(1.05) rotate(28deg); }
+  76%  { transform: translate(calc(var(--dx) + .35em), calc(var(--dy) - 1.15em)) scale(.9) rotate(-12deg); }
+  100% { opacity: 1; transform: translate(var(--dx), var(--dy)) scale(.62) rotate(8deg); }
+}
+@media (max-width: 760px) {
+  .intro .wrap.hero2 { grid-template-columns: 1fr; text-align: center; padding-block: 24px 48px; gap: 0; }
+  .hart { order: -1; }
+  .htext { padding-left: 0; }
+  .hart { max-width: 360px; justify-self: center; margin-bottom: 18px; }
+  .htext p { margin: 16px auto 26px; }
+}

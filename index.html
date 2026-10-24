@@ -32,7 +32,7 @@
     <div class="wrap hero2">
       <div class="htext">
         <h1 class="brandword" aria-label="Bookmoth"><span aria-hidden="true"><span class="l cap" style="--i:0">B</span><span class="l" style="--i:1">o</span><span class="l perch" style="--i:2">o<span class="moth"><img src="/img/logo.png" alt=""></span></span><span class="l" style="--i:3">k</span><span class="l" style="--i:4">m</span><span class="l" style="--i:5">o</span><span class="l" style="--i:6">t</span><span class="l" style="--i:7">h</span></span></h1>
-        <p>“Just one more chapter, then sleep.” Famous last words.</p>
+        <p>“Just one more chapter, then sleep.”<br>Famous last words.</p>
         <a class="btn" href="#catalog">Browse the books</a>
       </div>
       <div class="hart">
@@ -81,8 +81,16 @@
       <p class="small" id="noresult" hidden style="margin-top:14px">Nothing on that yet.</p>
 
       <div class="endnote" id="join">
-        <p>Get an email when the next one is out.</p>
-        <a class="btn sm" href="mailto:products000001@gmail.com?subject=Notify%20me%20about%20new%20Bookmoth%20books">Notify me</a>
+        <p id="joinmsg">Get an email when the next one is out.</p>
+        <form id="signup" action="https://formsubmit.co/products000001@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Bookmoth subscriber">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+          <label for="email" style="position:absolute;left:-9999px">Email address</label>
+          <input id="email" type="email" name="email" required placeholder="Your email" autocomplete="email">
+          <button class="btn sm" type="submit">Notify me</button>
+        </form>
       </div>
     </div>
   </section>
@@ -102,8 +110,19 @@
     setTimeout(()=>{ const a=m.getBoundingClientRect(), b=t.getBoundingClientRect();
       h1.style.setProperty('--dx',(b.left+b.width*0.55-(a.left+a.width/2))+'px');
       h1.style.setProperty('--dy',(b.top-(a.top+a.height*0.55))+'px');
-      h1.classList.add('fly'); setTimeout(()=>h1.classList.add('landed'),1650); }, 1150);
+      h1.classList.add('fly'); setTimeout(()=>h1.classList.add('landed'),2650); }, 1150);
   })();
+  const sf = document.getElementById('signup');
+  if (sf) sf.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = sf.querySelector('button'), msg = document.getElementById('joinmsg');
+    btn.disabled = true; btn.textContent = 'Sending…';
+    try {
+      const r = await fetch('https://formsubmit.co/ajax/products000001@gmail.com', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(Object.fromEntries(new FormData(sf))) });
+      if (!r.ok) throw 0;
+      msg.textContent = 'You’re on the list. Thank you!'; sf.reset(); btn.textContent = 'Done ✓';
+    } catch (err) { sf.submit(); }
+  });
 </script>
 <footer class="sitefoot">
   <div class="wrap">

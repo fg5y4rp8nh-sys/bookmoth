@@ -14,14 +14,18 @@ const cards = [...document.querySelectorAll('#books .bk')], none = document.getE
       h1.style.setProperty('--dy',(b.top-(a.top+a.height*0.55))+'px');
       h1.classList.add('fly'); setTimeout(()=>h1.classList.add('landed'),2650); }, 1150);
   })();
-  const sf = document.getElementById('signup');
-  if (sf) sf.addEventListener('submit', async (e) => {
-    e.preventDefault();
+  const sf = document.getElementById('signup'), dlg = document.getElementById('consent');
+  async function send() {
     const btn = sf.querySelector('button'), msg = document.getElementById('joinmsg');
     btn.disabled = true; btn.textContent = 'Sending…';
     try {
-      const r = await fetch('https://formsubmit.co/ajax/products000001@gmail.com', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(Object.fromEntries(new FormData(sf))) });
+      const r = await fetch('https://formsubmit.co/ajax/products000001@gmail.com', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(Object.assign(Object.fromEntries(new FormData(sf)), { consent: 'Agreed to Privacy policy' })) });
       if (!r.ok) throw 0;
       msg.textContent = 'You’re on the list. Thank you!'; sf.reset(); btn.textContent = 'Done ✓';
-    } catch (err) { sf.submit(); }
-  });
+    } catch (err) { btn.disabled = false; btn.textContent = 'Notify me'; msg.textContent = 'Something went wrong. Please try again.'; }
+  }
+  if (sf && dlg) {
+    sf.addEventListener('submit', (e) => { e.preventDefault(); dlg.showModal(); });
+    document.getElementById('consent-ok').addEventListener('click', () => { dlg.close(); send(); });
+    document.getElementById('consent-no').addEventListener('click', () => dlg.close());
+  }

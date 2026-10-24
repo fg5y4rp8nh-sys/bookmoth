@@ -93,8 +93,15 @@
           <label for="email" style="position:absolute;left:-9999px">Email address</label>
           <input id="email" type="email" name="email" required placeholder="Your email" autocomplete="email">
           <button class="btn sm" type="submit">Notify me</button>
-          <p class="small" style="flex-basis:100%;margin:6px 0 0">We'll only email you about new books. Unsubscribe anytime. <a href="/privacy" style="color:var(--link)">Privacy policy</a>.</p>
         </form>
+        <dialog id="consent" aria-labelledby="consent-t">
+          <h3 id="consent-t">Before we add you</h3>
+          <p style="margin:12px 0 0">We'll only email you when a new Bookmoth book is out. No spam, and you can unsubscribe anytime. Your email is handled as described in our <a href="/privacy" style="color:var(--link)">Privacy policy</a>.</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px">
+            <button class="btn" type="button" id="consent-ok">Agree &amp; subscribe</button>
+            <button class="btn ghost" type="button" id="consent-no">Cancel</button>
+          </div>
+        </dialog>
       </div>
     </div>
   </section>

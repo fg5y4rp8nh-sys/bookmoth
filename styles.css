@@ -447,3 +447,15 @@ body:not(.past-buy) .buybar { transform: translateY(110%); opacity: 0; pointer-e
   .sitefoot a { margin: 2px 0; }
 }
 .sitefoot .logo .word { color: var(--ink); }
+
+/* ---------- No blobs: lamp-glow stage ---------- */
+.product { background: linear-gradient(180deg, #FBF6F1 0%, #FFFFFF 100%); }
+.product .art { background: radial-gradient(ellipse 60% 55% at 50% 42%, #FFF3DC 0%, #FBE6DF 55%, #F6DCD6 100%); border-radius: 24px; padding: 48px 24px 56px; overflow: hidden; }
+.product .art::after { content: ""; position: absolute; left: 50%; bottom: 34px; width: 62%; height: 26px; transform: translateX(-50%); background: radial-gradient(ellipse at center, rgba(70, 35, 20, .28), transparent 70%); filter: blur(4px); z-index: 0; }
+.product .book3d { position: relative; z-index: 1; filter: drop-shadow(0 18px 22px rgba(60,30,20,.22)); }
+.intro { background: radial-gradient(ellipse 55% 75% at 78% 50%, #FFF1D9 0%, #F9E6E2 50%, #F6E3DF 100%); }
+@media (max-width: 760px) {
+  .product .art { padding: 32px 16px 44px; border-radius: 18px; margin-top: 4px; }
+  .product .art::after { bottom: 26px; }
+  .intro { background: radial-gradient(ellipse 90% 45% at 50% 28%, #FFF1D9 0%, #F9E6E2 60%, #F6E3DF 100%); }
+}

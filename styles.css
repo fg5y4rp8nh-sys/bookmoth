@@ -431,3 +431,19 @@ body:not(.past-buy) .pagenav .mini-buy { opacity: 0; pointer-events: none; }
 body:not(.past-buy) .buybar { transform: translateY(110%); opacity: 0; pointer-events: none; }
 #consent h3 { font-size: 24px; }
 .endnote #consent p { font-family: var(--sans); font-size: 16px; font-weight: 400; line-height: 1.6; color: var(--ink-2); }
+
+/* ---------- Mobile cleanup ---------- */
+.product .copy { position: relative; z-index: 1; }
+@media (max-width: 760px) {
+  .pagenav { display: none; }
+  .product .blobs .blob:nth-child(2) { display: none; }
+  .sitefoot { padding-block: 32px 28px; }
+  .sitefoot .wrap { grid-template-columns: 1fr 1fr; gap: 22px 16px; }
+  .sitefoot .wrap > div:first-child { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 18px; }
+  .sitefoot .wrap > div:first-child .logo { margin: 0 !important; }
+  .sitefoot .logoimg { width: 36px; }
+  .sitefoot .logo .word { font-size: 18px; }
+  .sitefoot h5 { margin-bottom: 6px; }
+  .sitefoot a { margin: 2px 0; }
+}
+.sitefoot .logo .word { color: var(--ink); }

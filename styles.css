@@ -1,10 +1,19 @@
+@font-face { font-family: "Playfair Display"; font-style: italic; font-weight: 500; font-display: swap; src: url("/fonts/playfair-display-latin-500-italic.woff2") format("woff2"); }
+@font-face { font-family: "Playfair Display"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/playfair-display-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Playfair Display"; font-style: italic; font-weight: 600; font-display: swap; src: url("/fonts/playfair-display-latin-600-italic.woff2") format("woff2"); }
+@font-face { font-family: "Playfair Display"; font-style: normal; font-weight: 700; font-display: swap; src: url("/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Playfair Display"; font-style: normal; font-weight: 800; font-display: swap; src: url("/fonts/playfair-display-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/dm-sans-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("/fonts/dm-sans-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/dm-sans-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "DM Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("/fonts/dm-sans-latin-700-normal.woff2") format("woff2"); }
 /* Layout: white bookstore page with soft pastel blobs, high-contrast serif display, shelves of small cards, dark topic tiles — single light theme on purpose */
 :root {
   --bg: #FFFFFF;
   --bg-soft: #FBF8F4;
   --ink: #141414;
   --ink-2: #4D4D4D;
-  --ink-3: #8A8A8A;
+  --ink-3: #6B6B6B;
   --line: #ECE7E1;
   --blush: #F8E3E1;
   --mint: #D3E8E1;

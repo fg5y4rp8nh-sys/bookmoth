@@ -6,8 +6,7 @@
 <title>Bookmoth · Online bookstore</title>
 <meta name="description" content="Bookmoth is an online bookstore of short, practical books on marriage, family, money and life’s big changes.">
 <link rel="icon" href="/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap">
+<link rel="preload" href="/fonts/playfair-display-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Bookmoth · Online bookstore">
@@ -49,7 +48,6 @@
         <button class="chip" type="button" data-f="marriage">Marriage</button>
         <button class="chip" type="button" data-f="family">Family</button>
         <button class="chip" type="button" data-f="life">Self-help</button>
-        <button class="chip" type="button" data-f="money">Money</button>
       </div>
 
       <div class="catalog" id="books">
@@ -90,40 +88,13 @@
           <label for="email" style="position:absolute;left:-9999px">Email address</label>
           <input id="email" type="email" name="email" required placeholder="Your email" autocomplete="email">
           <button class="btn sm" type="submit">Notify me</button>
+          <p class="small" style="flex-basis:100%;margin:6px 0 0">We'll only email you about new books. Unsubscribe anytime. <a href="/privacy" style="color:var(--link)">Privacy policy</a>.</p>
         </form>
       </div>
     </div>
   </section>
 </main>
-<script>
-  const cards = [...document.querySelectorAll('#books .bk')], none = document.getElementById('noresult'), chips = [...document.querySelectorAll('.chip')];
-  let topic = '';
-  function apply() {
-    let n = 0;
-    cards.forEach(c => { const ok = (!topic || c.dataset.t === topic) ; c.style.display = ok ? '' : 'none'; n += ok; });
-    none.hidden = n > 0;
-  }
-  chips.forEach(ch => ch.addEventListener('click', () => { topic = ch.dataset.f; chips.forEach(x => x.setAttribute('aria-pressed', x === ch)); apply(); }));
-  (function(){
-    const h1=document.querySelector('.brandword'); if(!h1) return;
-    const m=h1.querySelector('.moth'), t=h1.querySelectorAll('.l')[7];
-    setTimeout(()=>{ const a=m.getBoundingClientRect(), b=t.getBoundingClientRect();
-      h1.style.setProperty('--dx',(b.left+b.width*0.55-(a.left+a.width/2))+'px');
-      h1.style.setProperty('--dy',(b.top-(a.top+a.height*0.55))+'px');
-      h1.classList.add('fly'); setTimeout(()=>h1.classList.add('landed'),2650); }, 1150);
-  })();
-  const sf = document.getElementById('signup');
-  if (sf) sf.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const btn = sf.querySelector('button'), msg = document.getElementById('joinmsg');
-    btn.disabled = true; btn.textContent = 'Sending…';
-    try {
-      const r = await fetch('https://formsubmit.co/ajax/products000001@gmail.com', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(Object.fromEntries(new FormData(sf))) });
-      if (!r.ok) throw 0;
-      msg.textContent = 'You’re on the list. Thank you!'; sf.reset(); btn.textContent = 'Done ✓';
-    } catch (err) { sf.submit(); }
-  });
-</script>
+<script src="/js/home.js" defer></script>
 <footer class="sitefoot">
   <div class="wrap">
     <div><a class="logo" href="/" style="margin:0 0 12px"><img class="logoimg" src="/img/logo-sm.png" alt="" width="48" height="31"><span class="word">Bookmoth</span></a></div>

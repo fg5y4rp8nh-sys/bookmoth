@@ -1,5 +1,5 @@
 const dlg = document.getElementById('checkout');
-  const CHECKOUT_URL = 'https://bookmoths.lemonsqueezy.com/checkout/buy/11bbae8e-f0db-4797-9f1b-cd2b07cc631b?discount=0';
+  const CHECKOUT_URL = 'https://bookmoths.lemonsqueezy.com/checkout/buy/11bbae8e-f0db-4797-9f1b-cd2b07cc631b?media=0&discount=0';
   document.querySelectorAll('.buy').forEach(b => b.addEventListener('click', () => CHECKOUT_URL ? (location.href = CHECKOUT_URL) : dlg.showModal()));
   document.getElementById('close-checkout').addEventListener('click', () => dlg.close());
   const mainBuy = document.querySelector('.buyrow');

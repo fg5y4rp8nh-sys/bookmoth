@@ -1,0 +1,110 @@
+<title>Bookmoth</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Online bookstore.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap">
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="styles.css">
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html"><img class="logoimg" src="img/logo-sm.png" alt="" width="48" height="31"><span class="word">Bookmoth</span></a>
+    <nav aria-label="Main">
+      <a href="#catalog">Books</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="intro" style="padding:0">
+    <div class="wrap hero2">
+      <div class="htext">
+        <h1 class="brandword" aria-label="Bookmoth"><span aria-hidden="true"><span class="l cap" style="--i:0">B</span><span class="l" style="--i:1">o</span><span class="l perch" style="--i:2">o<span class="moth"><img src="img/logo.png" alt=""></span></span><span class="l" style="--i:3">k</span><span class="l" style="--i:4">m</span><span class="l" style="--i:5">o</span><span class="l" style="--i:6">t</span><span class="l" style="--i:7">h</span></span></h1>
+        <p>“Just one more chapter, then sleep.”<br>Famous last words.</p>
+        <a class="btn" href="#catalog">Browse the books</a>
+      </div>
+      <div class="hart">
+        <img src="img/hero.webp" alt="A nightstand with books, a lamp and a cup of tea by a moonlit window" width="960" height="966">
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog">
+    <div class="wrap">
+      <h2>Catalog</h2>
+      <div class="chips" role="group" aria-label="Filter by topic">
+        <button class="chip" type="button" data-f="" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-f="marriage">Marriage</button>
+        <button class="chip" type="button" data-f="family">Family</button>
+        <button class="chip" type="button" data-f="life">Self-help</button>
+      </div>
+
+      <div class="catalog" id="books">
+        <a class="bk" href="book.html" data-t="marriage" data-k="retired husband syndrome retirement marriage husband">
+          <div class="cvr cvr3d"><img src="img/book3d-sm.webp" alt="Retired Husband Syndrome book" width="301" height="440"></div>
+          <h3>Retired Husband Syndrome</h3>
+          <p class="s">When he's home all day, every day</p>
+          <span class="p">$25 <s class="was">$45</s> <span class="launch">Launch price</span></span>
+        </a>
+        <a class="bk" href="#join" data-t="family" data-k="quiet house empty nest kids moved out">
+          <div class="cvr cvr3d"><img src="img/b-quiet.webp" alt="" width="301" height="440" loading="lazy"></div>
+          <h3>The Quiet House</h3>
+          <p class="s">When the kids move out</p>
+          <span class="p soon">Coming soon</span>
+        </a>
+        <a class="bk" href="#join" data-t="family" data-k="caring for mom dad parents aging">
+          <div class="cvr cvr3d"><img src="img/b-parents.webp" alt="" width="301" height="440" loading="lazy"></div>
+          <h3>Caring for Mom &amp; Dad</h3>
+          <p class="s">Without losing yourself</p>
+          <span class="p soon">Coming soon</span>
+        </a>
+        <a class="bk" href="#join" data-t="life" data-k="before you turn 60 sixty age decisions">
+          <div class="cvr cvr3d"><img src="img/b-60.webp" alt="" width="301" height="440" loading="lazy"></div>
+          <h3>Before You Turn 60</h3>
+          <p class="s">Decisions worth making early</p>
+          <span class="p soon">Coming soon</span>
+        </a>
+      </div>
+      <p class="small" id="noresult" hidden style="margin-top:14px">Nothing on that yet.</p>
+
+      <div class="endnote" id="join">
+        <p>Get an email when the next one is out.</p>
+        <form id="signup">
+          <label for="email" style="position:absolute;left:-9999px">Email address</label>
+          <input id="email" type="email" required placeholder="Your email" autocomplete="email">
+          <button class="btn sm" type="submit">Notify me</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="sitefoot">
+  <div class="wrap">
+    <div><a class="logo" href="index.html" style="margin:0 0 12px"><img class="logoimg" src="img/logo-sm.png" alt="" width="48" height="31"><span class="word">Bookmoth</span></a></div>
+    <div><h5>Books</h5><a href="book.html">Retired Husband Syndrome</a></div>
+    <div><h5>Help</h5><a href="#">Contact</a><a href="#">Refund policy</a></div>
+    <div><h5>Legal</h5><a href="#">Privacy policy</a><a href="#">Terms</a><span class="small">© 2026</span></div>
+  </div>
+</footer>
+
+<script>
+  const cards = [...document.querySelectorAll('#books .bk')], none = document.getElementById('noresult'), chips = [...document.querySelectorAll('.chip')];
+  let topic = '';
+  function apply() {
+    let n = 0;
+    cards.forEach(c => { const ok = (!topic || c.dataset.t === topic) ; c.style.display = ok ? '' : 'none'; n += ok; });
+    none.hidden = n > 0;
+  }
+  chips.forEach(ch => ch.addEventListener('click', () => { topic = ch.dataset.f; chips.forEach(x => x.setAttribute('aria-pressed', x === ch)); apply(); }));
+  document.getElementById('signup').addEventListener('submit', function (e) { e.preventDefault(); this.querySelector('button').textContent = 'Done ✓'; this.reset(); });
+  (function(){
+    const h1=document.querySelector('.brandword'); if(!h1) return;
+    const m=h1.querySelector('.moth'), t=h1.querySelectorAll('.l')[7];
+    setTimeout(()=>{ const a=m.getBoundingClientRect(), b=t.getBoundingClientRect();
+      h1.style.setProperty('--dx',(b.left+b.width*0.55-(a.left+a.width/2))+'px');
+      h1.style.setProperty('--dy',(b.top-(a.top+a.height*0.55))+'px');
+      h1.classList.add('fly'); setTimeout(()=>h1.classList.add('landed'),2650); }, 1150);
+  })();
+</script>

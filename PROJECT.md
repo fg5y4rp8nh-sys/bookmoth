@@ -29,11 +29,16 @@ Owner lives in Vietnam. Sales go through Lemon Squeezy (approved, live).
 - Hero tagline: “Just one more chapter, then sleep.” Famous last words.
 - Palette: blush #F8E3E1, butter, mint, terracotta accent #C2512E; Playfair Display + DM Sans.
 - No decorative blobs on the book page (owner disliked them); soft "lamp-glow" backdrops instead.
-- Catalog shows 3D book mockups (img/book3d*, b-quiet, b-parents, b-60).
+- Catalog shows 3D book mockups (img/book3d*, img/bk-*). Filters: Relationships, Family, Self-help, Money & work, Tarot & astrology.
 
 ## Books
 - Out now: "Retired Husband Syndrome: And 40 Ways to Survive It With Your Marriage Intact" — 74-page PDF, 40 chapters, 6 worksheets. The PDF and manuscript are NOT in this public repo (paid product); the owner keeps them in the project zip.
-- Coming soon (covers only): The Quiet House, Caring for Mom & Dad, Before You Turn 60.
+- Added Nov 2 2026 (pages live, checkout not yet connected; buy button shows "Checkout opens very soon"):
+  Fight Fair ($20), Raising Teens Without Losing Your Mind ($20), Stop Overthinking ($20), The 30-Day Reset ($15),
+  The One-Person Business ($20), How the Economy Actually Works ($20), Tarot for Real Life ($15), Your Birth Chart, Decoded ($20).
+  Page data: `src/site/books.json`; generator: `src/tools/book_pages.py`; covers: `src/site/img/bk-*.webp`.
+  To connect payment: create the Lemon Squeezy product (upload the PDF there), paste its checkout link into `CHECKOUTS` in `build_deploy.py`, rebuild, deploy.
+  PDFs and manuscripts are NOT in this repo.
 
 ## Pricing & policies
 - Launch price $25, regular $45 — launch ends Nov 30 2026 (must really raise the price or move the date; no fake discounts).

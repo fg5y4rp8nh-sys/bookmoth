@@ -1,0 +1,893 @@
+[
+ {
+  "key": "fight",
+  "slug": "fight-fair",
+  "img": "fight",
+  "title": "Fight Fair",
+  "sub": "How Couples Argue Without Hurting Each Other, and Come Out Closer",
+  "card": "Argue without hurting each other",
+  "topic": "relationships",
+  "price": 20,
+  "pages": 67,
+  "kw": "fight fair couples argue arguments marriage relationship conflict",
+  "pitch": "Every couple fights. What matters is how. This book turns decades of relationship research into tools you can use tonight: how to start a hard conversation without blame, what to do when one of you shuts down, how to repair mid-fight, and how to come out of an argument closer instead of further apart.",
+  "blurbs": [
+   "Why small fights get so big, the four habits that do the most damage, the pursue-and-withdraw dance, and what happens in your body when you flood.",
+   "Timing, the soft start-up, saying what you need, listening, time-outs that work, repairs in the middle of a fight, and real apologies.",
+   "Money, chores and the mental load, sex, in-laws, phones and parenting: the topics couples fight about most.",
+   "Talking through a past fight, unlocking problems that never go away, everyday connection, recognizing abuse, and when to get help."
+  ],
+  "faq_extra": [
+   "Is this couples therapy?",
+   "No. It's a practical, educational guide for everyday conflict between partners who are both safe. If you feel afraid of your partner, the book explains why these tools aren't the right fit and lists where to get help."
+  ],
+  "alt": "Fight Fair book cover: a pink and a blue boxing glove touching, laces tied into a heart",
+  "parts": [
+   {
+    "name": "Understanding Conflict",
+    "ch": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "Fighting Fair",
+    "ch": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "name": "The Usual Battlegrounds",
+    "ch": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "name": "After the Fight",
+    "ch": [
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  ],
+  "chapters": [
+   "What You're Really Fighting About",
+   "The Four Habits That Do the Most Damage",
+   "The Dance: Pursue and Withdraw",
+   "Flooding: When Your Body Takes Over",
+   "Problems You Can Solve, and Problems You Can't",
+   "Timing: When Not to Have the Talk",
+   "The Soft Start-Up",
+   "Saying What You Mean: Feelings and Needs",
+   "Listening So Your Partner Feels Heard",
+   "Time-Outs That Work",
+   "Repair Attempts: Saving a Fight in the Middle",
+   "How to Apologize Well",
+   "Money",
+   "Chores and the Mental Load",
+   "Sex and Intimacy",
+   "Families and In-Laws",
+   "Phones, Screens and Attention",
+   "Parenting",
+   "Processing a Fight After It's Over",
+   "Unlocking Gridlock",
+   "Building the Everyday Bank Account",
+   "When It's Not Conflict: Recognizing Abuse",
+   "When to Get Help"
+  ],
+  "worksheets": [
+   "Our Cycle",
+   "Our Time-Out Agreement",
+   "Household Ownership",
+   "Processing a Fight"
+  ],
+  "sample": {
+   "n": 1,
+   "title": "What You're Really Fighting About",
+   "paras": [
+    "Almost every couple has had a fight that started with something tiny: a late reply, a wet towel on the bed, a forgotten errand. Twenty minutes later, both people are hurt and exhausted, and neither can remember how it got so bad.",
+    "Sue Johnson, the founder of Emotionally Focused Therapy, describes most couple conflict as a <strong>protest against disconnection.</strong> When we feel distant from a partner, we get scared, even if we don't recognize it as fear. That fear comes out as anger, criticism, sulking or shutting down. The fight looks like it's about the towel, but underneath, it's a question: <em>Are you still there for me?</em>",
+    "Here's an example. Maya texts her partner, Leo, at lunch. He doesn't reply until 9 p.m. When he gets home, she says coldly, \"Must've been a busy day.\" He says, \"It was, actually,\" and it's on."
+   ],
+   "page": "11"
+  }
+ },
+ {
+  "key": "teens",
+  "slug": "raising-teens",
+  "img": "teens",
+  "title": "Raising Teens Without Losing Your Mind",
+  "sub": "A Calm Parent's Guide to the Years Between 12 and 18",
+  "card": "A calm guide to ages 12 to 18",
+  "topic": "family",
+  "price": 20,
+  "pages": 64,
+  "kw": "raising teens teenagers parenting parents adolescence family",
+  "pitch": "The door closes. Answers shrink to one word. You're suddenly embarrassing. This is a calm, practical guide to the teenage years: what's happening in their brains and bodies, how to talk so they actually talk back, which rules matter, and how to handle phones, friends, dating, alcohol, school pressure and low moods.",
+  "blurbs": [
+   "The teenage brain, bodies and identity, why teens pull away, and why sleep matters more than you think.",
+   "How to talk so teens talk, listening without fixing, and staying close when they push you away.",
+   "The parenting style that works best, rules worth having, consequences that teach, trust and privacy, and fewer daily battles.",
+   "Phones and social media, friends, dating and consent, alcohol and vaping, school pressure, and mental health warning signs.",
+   "Your own triggers, co-parenting, when to get outside help, and letting go a little more each year."
+  ],
+  "faq_extra": [
+   "Is this medical or psychological advice?",
+   "No. It's an educational guide for parents. If you're worried about your teen's safety or mental health, the book explains warning signs and points you to professional help."
+  ],
+  "alt": "Raising Teens Without Losing Your Mind book cover: collage of a teenage girl in headphones rolling her eyes",
+  "parts": [
+   {
+    "name": "Understanding Teenagers",
+    "ch": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "Staying Connected",
+    "ch": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "Limits and Freedom",
+    "ch": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "name": "The Hard Topics",
+    "ch": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "name": "Looking After You",
+    "ch": [
+     19,
+     20,
+     21,
+     22
+    ]
+   }
+  ],
+  "chapters": [
+   "The Teenage Brain Under Construction",
+   "Bodies, Hormones and Identity",
+   "Why Teens Pull Away",
+   "Sleep: The Most Underrated Factor",
+   "How to Talk So Teens Will Talk",
+   "Listening Without Fixing",
+   "Staying Close When They Push You Away",
+   "The Parenting Style That Works Best",
+   "Rules Worth Having",
+   "Consequences That Teach",
+   "Trust, Privacy and Honesty",
+   "Handling Conflict Without Daily Battles",
+   "Phones and Social Media",
+   "Friends, Peer Pressure and Belonging",
+   "Dating, Love and Consent",
+   "Alcohol, Vaping and Drugs",
+   "School, Grades and Pressure",
+   "Anxiety, Low Mood and Mental Health",
+   "Your Own Triggers and Stress",
+   "Co-Parenting and Different Approaches",
+   "When to Get Outside Help",
+   "Letting Go, Gradually"
+  ],
+  "worksheets": [
+   "Our Family Agreements",
+   "Family Media Plan",
+   "Life Skills by 18",
+   "My Triggers"
+  ],
+  "sample": {
+   "n": 3,
+   "title": "Why Teens Pull Away",
+   "paras": [
+    "One of the hardest parts of parenting teenagers is feeling pushed away. The child who wanted to be with you now prefers friends, keeps their door shut, and seems irritated by your very existence.",
+    "<strong>It's their job.</strong> Psychologists describe adolescence as a period of <strong>individuation:</strong> becoming a separate individual with your own thoughts, values and life. To do that, teens need to step back from their parents. Sometimes they do it by criticizing you, disagreeing with you, or simply spending more time alone and with friends. It isn't a rejection of you as a person; it's a necessary step toward adulthood.",
+    "<strong>Friends become central.</strong> In adolescence, friends become a primary source of support, identity and belonging. This is normal and important. Teens are learning how to build relationships outside the family, which they'll need for the rest of their lives."
+   ],
+   "page": "14"
+  }
+ },
+ {
+  "key": "overthink",
+  "slug": "stop-overthinking",
+  "img": "overthink",
+  "title": "Stop Overthinking",
+  "sub": "Practical Tools to Quiet Worry, Rumination and the Endless What-Ifs",
+  "card": "Quiet the endless what-ifs",
+  "topic": "self",
+  "price": 20,
+  "pages": 71,
+  "kw": "stop overthinking worry anxiety rumination thoughts sleep self-help",
+  "pitch": "It's 2 a.m. and your mind is replaying a conversation from last week and rehearsing three that may never happen. This book won't tell you to \"just stop thinking.\" It gives you a toolbox drawn from well-researched approaches: worry time, stepping back from thoughts, talking to yourself like a friend, living with uncertainty, and specific fixes for nights, decisions and social replays.",
+  "blurbs": [
+   "What overthinking is, why your brain does it, and whether worrying actually helps.",
+   "Noticing the loop early, telling useful thinking from a loop, and common thinking traps.",
+   "Worry time, stepping back from thoughts, distanced self-talk, problem-solving, questioning thoughts, uncertainty, attention and calming the body.",
+   "At night, decisions, the social replay, relationships and messages, health worries, work and perfectionism.",
+   "Self-compassion, a life bigger than your thoughts, and when to get professional help."
+  ],
+  "faq_extra": [
+   "Is this therapy?",
+   "No. It's a self-help guide based on established psychological approaches. If worry or low mood is seriously affecting your life, the book explains when and where to get professional help."
+  ],
+  "alt": "Stop Overthinking book cover: a man in a white shirt with a tangled ball of red yarn instead of a head",
+  "parts": [
+   {
+    "name": "Understanding Overthinking",
+    "ch": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "Catching It",
+    "ch": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "name": "The Toolbox",
+    "ch": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "name": "Common Overthinking Traps",
+    "ch": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "name": "Beyond Overthinking",
+    "ch": [
+     22,
+     23,
+     24
+    ]
+   }
+  ],
+  "chapters": [
+   "What Overthinking Really Is",
+   "Why Your Brain Does It",
+   "Does Worrying Actually Help?",
+   "Your Overthinking Profile",
+   "Noticing the Loop",
+   "Useful Thinking or a Loop?",
+   "Common Thinking Traps",
+   "Worry Time",
+   "Stepping Back From Thoughts",
+   "Talking to Yourself Like a Friend",
+   "Solving What Can Be Solved",
+   "Questioning Your Thoughts",
+   "Living With Uncertainty",
+   "Shifting Your Attention",
+   "Calming the Body",
+   "At Night",
+   "Decisions",
+   "The Social Replay",
+   "Relationships and Messages",
+   "Health Worries",
+   "Work and Perfectionism",
+   "Self-Compassion",
+   "A Life Bigger Than Your Thoughts",
+   "When to Get Professional Help"
+  ],
+  "worksheets": [
+   "My Overthinking Profile",
+   "Thought Record",
+   "Solving a Problem",
+   "Making a Decision",
+   "Worry Time Log"
+  ],
+  "sample": {
+   "n": 3,
+   "title": "Does Worrying Actually Help?",
+   "paras": [
+    "Let's look more closely at those positive beliefs about worrying, because they're often what keeps the habit going. Here are the most common ones, and what's really going on.",
+    "<strong>\"Worrying helps me prepare.\"</strong> Planning helps you prepare. Worry is different. Planning is concrete and leads to action: you make a list, book an appointment, practice a speech. Worry repeats the same fears without moving forward. You can prepare without worrying.",
+    "<strong>\"If I worry, I won't be caught off guard.\"</strong> Think back over your life. Did worrying about something in advance actually make it hurt less when it happened? Most people find it didn't. Instead, they suffered twice: once while worrying, and again when it happened. And most of the things they worried about never happened at all."
+   ],
+   "page": "15"
+  }
+ },
+ {
+  "key": "reset",
+  "slug": "the-30-day-reset",
+  "img": "reset",
+  "title": "The 30-Day Reset",
+  "sub": "A Gentle Daily Plan for Better Sleep, Food, Movement and Habits",
+  "card": "Sleep, food, movement, habits",
+  "topic": "self",
+  "price": 15,
+  "pages": 52,
+  "kw": "30 day reset habits sleep food movement health wellness self-help",
+  "pitch": "No diets, no calorie counting, no 5 a.m. alarms. One short reading and one small action a day for thirty days: a week each on sleep, food, movement and stress, then two days to choose the habits you'll keep. Built on what the research says about how habits really form.",
+  "blurbs": [
+   "How habits actually work, why small beats big, how to prepare, and your reason for doing this.",
+   "Thirty days, one small action each: sleep and rhythm, food and energy, movement, mind and stress.",
+   "Keeping it going, what to do when you slip, adapting the plan, simple meals, a beginner strength routine and common questions."
+  ],
+  "faq_extra": [
+   "Is this a diet or a weight-loss plan?",
+   "No. There are no calorie targets or forbidden foods. The plan focuses on sleep, energy, movement and stress. Talk to your doctor before changing your routine if you have a health condition."
+  ],
+  "alt": "The 30-Day Reset book cover: a grid of thirty circles shifting from pale peach to terracotta",
+  "parts": [
+   {
+    "name": "Before You Start",
+    "ch": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "name": "The Thirty Days",
+    "ch": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "name": "After the Reset",
+    "ch": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   }
+  ],
+  "chapters": [
+   "How Habits Actually Work",
+   "Why Small Beats Big",
+   "Preparing for Your Reset",
+   "Your Why",
+   "Week One: Sleep and Rhythm",
+   "Week Two: Food and Energy",
+   "Week Three: Movement",
+   "Week Four: Mind and Stress",
+   "The Final Two Days",
+   "Keeping It Going",
+   "When You Slip",
+   "Your Next Thirty Days",
+   "Adapting the Plan to Your Life",
+   "Simple Meals Without Recipes",
+   "A Beginner Strength Routine",
+   "Common Questions"
+  ],
+  "worksheets": [
+   "My Starting Point",
+   "My Snapshot",
+   "Tracker, Days 1–10",
+   "Tracker, Days 11–20",
+   "Tracker, Days 21–30",
+   "Weekly Review",
+   "My Keep List"
+  ],
+  "sample": {
+   "n": 1,
+   "title": "How Habits Actually Work",
+   "paras": [
+    "A habit is a behavior that has become automatic: you do it in a particular situation without really deciding to. Brushing your teeth before bed. Checking your phone when you wake up. Reaching for a snack when you sit down to watch TV.",
+    "Research by the psychologist Wendy Wood and others suggests that a large share of our everyday behavior is habitual, carried out with little conscious thought. That's why willpower alone is such an unreliable way to change. Willpower is needed when you're making a decision. Habits take the decision out of it.",
+    "To build a new habit, you need a clear cue, an easy behavior and a satisfying reward. To break an old one, it helps to change or remove the cue."
+   ],
+   "page": "10"
+  }
+ },
+ {
+  "key": "one-person",
+  "slug": "the-one-person-business",
+  "img": "one-person",
+  "title": "The One-Person Business",
+  "sub": "How to Build a Profitable Solo Business Without Employees, Investors or Burnout",
+  "card": "Profitable, solo, on your terms",
+  "topic": "money",
+  "price": 20,
+  "pages": 63,
+  "kw": "one person business solo freelance self-employed small business money work",
+  "pitch": "You don't need employees, investors or an app to run a real business. This is a practical guide to building something small on purpose: picking a problem worth solving, getting your first ten customers, pricing it properly, knowing your numbers, and keeping it from eating your life.",
+  "blurbs": [
+   "Small on purpose, starting from a problem, the skill you already have, one clear customer, a one-page plan and your business model.",
+   "Selling before you build, your first ten customers, pricing, one clear offer, words that sell, and a website in a weekend.",
+   "Your numbers on one page, taxes and licenses, getting paid on time, packages, repeat customers and simple marketing.",
+   "Systems, tools, saying no, protecting your energy, when to grow, and a business that fits your life."
+  ],
+  "faq_extra": [
+   "Is this legal or tax advice?",
+   "No. It's a practical, educational guide. Rules on taxes and licenses vary by country and state, so the book shows you what to ask and where to check, not what to file."
+  ],
+  "alt": "The One-Person Business book cover: a giant orange number 1 on black",
+  "parts": [
+   {
+    "name": "Decide What You're Building",
+    "ch": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "Get Your First Customers",
+    "ch": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "name": "Make It Pay",
+    "ch": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "name": "Stay Lean, Stay Sane",
+    "ch": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   }
+  ],
+  "chapters": [
+   "Small on Purpose",
+   "Start From a Problem, Not a Passion",
+   "The Skill You Already Get Paid For",
+   "Pick One Customer You Can Picture",
+   "Write a One-Page Business Plan",
+   "Choose Your Model: Service, Product, or Both",
+   "Sell Before You Build",
+   "Your First Ten Customers Are Hand-Picked",
+   "Price It Like You Mean It",
+   "The Offer: One Clear Promise",
+   "Say It Plainly: Words That Sell",
+   "A Website in a Weekend (or Not at All)",
+   "Know Your Numbers on One Page",
+   "Taxes, Licenses and Other Boring Things",
+   "Get Paid On Time",
+   "From Hours to Packages",
+   "Repeat Customers Are the Cheapest Customers",
+   "Simple Marketing That Compounds",
+   "Systems: Write It Down Once",
+   "Tools: Rent, Don't Build",
+   "Saying No",
+   "Protect Your Time and Your Energy",
+   "When to Grow (and When Not To)",
+   "A Business That Fits Your Life"
+  ],
+  "worksheets": [
+   "The One-Page Business Plan",
+   "The Customer Picture",
+   "The Pricing Calculator",
+   "My First Ten Customers",
+   "Weekly Numbers"
+  ],
+  "sample": {
+   "n": 9,
+   "title": "Price It Like You Mean It",
+   "paras": [
+    "New business owners almost always charge too little. It feels safer. It isn't.",
+    "Low prices cause problems you don't see at first. You need more customers to earn the same amount. You attract people who shop on price and leave for someone cheaper. You have no margin for slow months, taxes, or mistakes. And you get tired, which makes your work worse."
+   ],
+   "page": "26"
+  }
+ },
+ {
+  "key": "economy",
+  "slug": "how-the-economy-actually-works",
+  "img": "economy",
+  "title": "How the Economy Actually Works",
+  "sub": "Money, Inflation, Interest Rates and Recessions, Explained in Plain English",
+  "card": "Inflation, rates and recessions, plainly",
+  "topic": "money",
+  "price": 20,
+  "pages": 69,
+  "kw": "economy economics inflation interest rates recession money banks plain english",
+  "pitch": "Why did prices jump? What does the Fed actually do? Is a recession coming, and what would it mean for you? This book explains how the economy works in plain English, with everyday examples, short summaries and no heavy math, then shows you how to use it for your own money decisions.",
+  "blurbs": [
+   "Trade-offs, prices, what money is, how banks create it, GDP and unemployment.",
+   "What inflation is, why prices rise, who wins and loses, deflation, and how inflation is measured.",
+   "Interest, what central banks do, why higher rates cool inflation, bonds, and what rates mean for your loans and savings.",
+   "The business cycle, what really counts as a recession, bubbles, and government debt.",
+   "Reading economic news calmly, your money when prices rise, compounding, and your personal economy plan."
+  ],
+  "faq_extra": [
+   "Is this financial advice?",
+   "No. It's an educational guide that explains how the economy works. For decisions about your own investments or debts, talk to a qualified financial professional."
+  ],
+  "alt": "How the Economy Actually Works book cover: an isometric miniature town with a bank, factory and conveyor belts of coins",
+  "parts": [
+   {
+    "name": "The Basics",
+    "ch": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "Inflation",
+    "ch": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "name": "Interest Rates and Central Banks",
+    "ch": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "name": "Booms and Busts",
+    "ch": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "name": "What It Means for You",
+    "ch": [
+     21,
+     22,
+     23,
+     24
+    ]
+   }
+  ],
+  "chapters": [
+   "Every Choice Has a Cost",
+   "Prices Are Messages",
+   "What Money Really Is",
+   "How Banks Create Money",
+   "Measuring an Economy: GDP",
+   "Jobs and the Unemployment Rate",
+   "What Inflation Is (and Isn't)",
+   "Why Prices Rise",
+   "Who Wins and Who Loses",
+   "When Prices Fall: Deflation",
+   "How Inflation Is Measured",
+   "Interest: The Price of Money",
+   "What a Central Bank Does",
+   "Why Raising Rates Cools Inflation",
+   "Bonds and Yields, Simply",
+   "What Rates Mean for Your Loans and Savings",
+   "The Business Cycle",
+   "What Actually Counts as a Recession",
+   "How Bubbles Form and Pop",
+   "Governments, Taxes and Debt",
+   "How to Read Economic News Without Panicking",
+   "Thinking About Your Money When Prices Rise",
+   "Compounding and the Rule of 72",
+   "Your Personal Economy Plan"
+  ],
+  "worksheets": [
+   "My Personal Inflation Rate",
+   "My Debts and Interest Rates",
+   "My Personal Economy Plan"
+  ],
+  "sample": {
+   "n": 7,
+   "title": "What Inflation Is (and Isn't)",
+   "paras": [
+    "<strong>Inflation</strong> is a general rise in prices across the economy, which means each dollar buys a little less than it used to.",
+    "The key word is <em>general</em>. If coffee gets expensive because of a bad harvest in Brazil, that's a change in one price, driven by supply and demand. Inflation is when prices are rising broadly: food, rent, cars, haircuts, and wages, all drifting up together.",
+    "Inflation is usually reported as a yearly percentage. If inflation is 3 percent, something that cost $100 a year ago now costs about $103 on average. That doesn't sound like much, but it adds up. At 3 percent a year, prices roughly double in about 24 years. (Chapter 23 explains a handy trick for working that out.)"
+   ],
+   "page": "23"
+  }
+ },
+ {
+  "key": "tarot",
+  "slug": "tarot-for-real-life",
+  "img": "tarot",
+  "title": "Tarot for Real Life",
+  "sub": "A Beginner's Guide to Reading the Cards for Reflection",
+  "card": "Reading the cards for reflection",
+  "topic": "spirit",
+  "price": 15,
+  "pages": 59,
+  "kw": "tarot cards reading beginner guide spirituality reflection",
+  "pitch": "A clear, honest beginner's guide to tarot as a tool for reflection rather than fortune-telling. Learn the real history of the cards, the meanings of all 78, how to ask good questions, and spreads from a single daily card to the Celtic Cross.",
+  "blurbs": [
+   "Where tarot really came from, how a deck is built, choosing a deck, asking good questions, shuffling and reversed cards.",
+   "All 22 Major Arcana, from The Fool to The World, with keywords, upright and reversed meanings, and a question to ask yourself.",
+   "How the four suits and numbers work, then all 56 cards of Wands, Cups, Swords and Pentacles, including court cards.",
+   "The daily card, three-card spreads, the Celtic Cross, spreads for love, work and decisions, reading for others, and keeping a journal."
+  ],
+  "faq_extra": [
+   "Does this book say tarot predicts the future?",
+   "No. It presents tarot as a tool for reflection, journaling and entertainment, and is upfront that there is no evidence the cards can predict events."
+  ],
+  "alt": "Tarot for Real Life book cover: gold art nouveau hand with an eye in the palm on black",
+  "parts": [
+   {
+    "name": "Getting Started",
+    "ch": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "The Major Arcana",
+    "ch": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "name": "The Minor Arcana",
+    "ch": [
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "name": "Reading the Cards",
+    "ch": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ]
+   }
+  ],
+  "chapters": [
+   "Where Tarot Came From",
+   "How a Deck Is Built",
+   "Choosing and Caring for Your Deck",
+   "Asking Good Questions",
+   "Shuffling and Drawing",
+   "Upright and Reversed Cards",
+   "The Fool's Journey",
+   "The Beginning: The Fool to The Chariot",
+   "The Inward Path: Strength to Temperance",
+   "Transformation: The Devil to The World",
+   "How the Minor Arcana Work",
+   "Wands: Fire, Energy and Action",
+   "Cups: Water, Feelings and Relationships",
+   "Swords: Air, Thoughts and Truth",
+   "Pentacles: Earth, Work and Money",
+   "The Daily Card",
+   "Three-Card Spreads",
+   "The Celtic Cross",
+   "Spreads for Love, Work and Decisions",
+   "Reading for Others",
+   "Keeping a Tarot Journal"
+  ],
+  "worksheets": [
+   "Daily Card Journal",
+   "Celtic Cross Reading",
+   "My Card Notes"
+  ],
+  "sample": {
+   "n": 1,
+   "title": "Where Tarot Came From",
+   "paras": [
+    "Tarot didn't begin as a fortune-telling tool. It began as a card game.",
+    "The earliest surviving tarot cards come from northern Italy in the fifteenth century, painted for wealthy families like the Visconti and Sforza of Milan. They were used to play a trick-taking game called <em>tarocchi</em>, a bit like modern bridge, with an extra suit of picture cards, the \"triumphs,\" that beat all the others. People in France, Austria, and other parts of Europe still play tarot card games today.",
+    "The link between tarot and mysticism came much later. In 1781, a French writer named Antoine Court de Gébelin claimed, without any real evidence, that the cards preserved secret wisdom from ancient Egypt. The idea caught on. Over the next century, French and British occultists connected the cards to astrology, the Hebrew alphabet, and the four classical elements, and began using them for divination."
+   ],
+   "page": "9"
+  }
+ },
+ {
+  "key": "chart",
+  "slug": "your-birth-chart-decoded",
+  "img": "chart",
+  "title": "Your Birth Chart, Decoded",
+  "sub": "A Plain-English Guide to Signs, Planets, Houses and Aspects",
+  "card": "Signs, planets and houses, plainly",
+  "topic": "spirit",
+  "price": 20,
+  "pages": 71,
+  "kw": "birth chart astrology zodiac signs planets houses horoscope natal",
+  "pitch": "You know your Sun sign. Your chart has a lot more to say. This plain-English guide walks you through your Moon and Rising signs, all twelve signs, ten planets, twelve houses and the aspects between them, then shows you how to read a whole chart step by step.",
+  "blurbs": [
+   "What a birth chart is, where astrology came from, how to get your chart for free, the big three, elements and modalities.",
+   "How to read a sign, the fire, earth, air and water signs, and opposite sign pairs.",
+   "Sun and Moon, Mercury, Venus and Mars, Jupiter and Saturn, the outer planets, retrogrades, nodes and Chiron.",
+   "How the houses work, all twelve houses, empty houses and house rulers.",
+   "Aspects, chart shapes, reading a whole chart step by step, transits, compatibility, and using astrology wisely."
+  ],
+  "faq_extra": [
+   "Does this book say astrology is scientific?",
+   "No. It presents astrology as a symbolic language for self-reflection and entertainment, and is upfront that controlled studies have not found it predicts personality or events."
+  ],
+  "alt": "Your Birth Chart, Decoded book cover: a fine-line zodiac chart wheel on holographic foil",
+  "parts": [
+   {
+    "name": "The Basics",
+    "ch": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "name": "The Twelve Signs",
+    "ch": [
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "name": "The Planets",
+    "ch": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "name": "The Houses",
+    "ch": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "name": "Putting It Together",
+    "ch": [
+     21,
+     22,
+     23,
+     24,
+     25,
+     26
+    ]
+   }
+  ],
+  "chapters": [
+   "What a Birth Chart Is",
+   "Where Astrology Came From",
+   "Getting Your Chart",
+   "The Big Three: Sun, Moon and Rising",
+   "Elements and Modalities",
+   "How to Read a Sign",
+   "The Fire Signs: Aries, Leo, Sagittarius",
+   "The Earth Signs: Taurus, Virgo, Capricorn",
+   "The Air Signs: Gemini, Libra, Aquarius",
+   "The Water Signs: Cancer, Scorpio, Pisces",
+   "Opposite Signs and Sign Pairs",
+   "The Lights: Sun and Moon",
+   "The Personal Planets: Mercury, Venus, Mars",
+   "The Social Planets: Jupiter and Saturn",
+   "The Outer Planets: Uranus, Neptune, Pluto",
+   "Retrogrades, Nodes and Chiron",
+   "How the Houses Work",
+   "Houses One to Six",
+   "Houses Seven to Twelve",
+   "Empty Houses and House Rulers",
+   "Aspects: How the Planets Talk",
+   "Chart Shapes and Emphasis",
+   "Reading a Whole Chart, Step by Step",
+   "Transits and Timing",
+   "Compatibility: Comparing Two Charts",
+   "Using Astrology Wisely"
+  ],
+  "worksheets": [
+   "My Chart at a Glance",
+   "Reading My Chart",
+   "Does It Fit?"
+  ],
+  "sample": {
+   "n": 4,
+   "title": "The Big Three: Sun, Moon and Rising",
+   "paras": [
+    "If you learn only three things about your chart, learn these. Astrologers often call them \"the big three,\" and together they give a surprisingly rounded first portrait.",
+    "<strong>The Sun: who you're becoming.</strong> The Sun represents your core identity, your sense of purpose, what makes you feel alive and proud. It's the self you grow into. Your Sun sign is the one you already know, determined by your birth date.",
+    "<strong>The Moon: what you need.</strong> The Moon represents your emotional nature: how you react, what comforts you, what you need to feel safe, and the habits you fall back on when you're tired or stressed. If the Sun is who you are at your best, the Moon is who you are at home in your pajamas."
+   ],
+   "page": "17"
+  }
+ }
+]

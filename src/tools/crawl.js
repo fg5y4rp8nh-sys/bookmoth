@@ -1,7 +1,7 @@
 const { chromium } = require('playwright');
 (async () => {
   const b = await chromium.launch(); const base='http://localhost:4175';
-  const pages=['/','/retired-husband-syndrome','/privacy','/terms','/refund','/contact'];
+  const pages=['/','/retired-husband-syndrome',...require('../site/books.json').map(x=>'/'+x.slug),'/privacy','/terms','/refund','/contact'];
   const issues=[]; const links=new Set();
   for (const w of [320,375,768,1024,1440]) for (const u of pages) {
     const p = await b.newPage({ viewport:{width:w,height:900} });
@@ -29,8 +29,8 @@ const { chromium } = require('playwright');
   // interactive
   const p = await b.newPage({ viewport:{width:1280,height:900} }); await p.goto(base+'/');
   await p.click('.chip[data-f="family"]'); const vis=await p.$$eval('#books .bk', e=>e.filter(x=>x.style.display!=='none').length); console.log('family filter shows', vis);
-  await p.click('.chip[data-f="life"]'); console.log('self-help shows', await p.$$eval('#books .bk', e=>e.filter(x=>x.style.display!=='none').length));
-  const q = await b.newPage({ viewport:{width:1280,height:900} }); await q.goto(base+'/retired-husband-syndrome');
+  await p.click('.chip[data-f="self"]'); console.log('self-help shows', await p.$$eval('#books .bk', e=>e.filter(x=>x.style.display!=='none').length));
+  const q = await b.newPage({ viewport:{width:1280,height:900} }); await q.goto(base+'/fight-fair');
   await q.click('.buyrow .buy'); console.log('dialog open:', await q.$eval('#checkout', d=>d.open)); await q.click('#close-checkout'); console.log('dialog closed:', !(await q.$eval('#checkout', d=>d.open)));
   console.log('ISSUES', issues.length); [...new Set(issues)].forEach(i=>console.log(' -', i));
   await b.close(); })();

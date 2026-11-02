@@ -4,6 +4,17 @@ SRC = ROOT / 'site'
 OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else '/tmp/bookmoth-dist').resolve()  # build here, then copy to repo root
 EMAIL = 'products000001@gmail.com'
 SITE = 'https://bookmoth-ten.vercel.app'
+# Lemon Squeezy checkout links for the new books: paste each link here once the product exists.
+CHECKOUTS = {
+  'fight-fair': '',
+  'raising-teens': '',
+  'stop-overthinking': '',
+  'the-30-day-reset': '',
+  'the-one-person-business': '',
+  'how-the-economy-actually-works': '',
+  'tarot-for-real-life': '',
+  'your-birth-chart-decoded': '',
+}
 CHECKOUT_URL = 'https://bookmoths.lemonsqueezy.com/checkout/buy/11bbae8e-f0db-4797-9f1b-cd2b07cc631b?media=0&discount=0'
 if OUT.exists(): shutil.rmtree(OUT)
 (OUT / 'img').mkdir(parents=True)
@@ -32,7 +43,7 @@ HEADER = '''<header class="top">
 FOOTER = '''<footer class="sitefoot">
   <div class="wrap">
     <div><a class="logo" href="/" style="margin:0 0 12px"><img class="logoimg" src="/img/logo-sm.png" alt="" width="48" height="31"><span class="word">Bookmoth</span></a></div>
-    <div><h5>Books</h5><a href="/retired-husband-syndrome">Retired Husband Syndrome</a><a href="/#catalog">Coming soon</a></div>
+    <div><h5>Books</h5><a href="/#catalog">All books</a><a href="/retired-husband-syndrome">Retired Husband Syndrome</a><a href="/fight-fair">Fight Fair</a><a href="/stop-overthinking">Stop Overthinking</a></div>
     <div><h5>Help</h5><a href="/contact">Contact</a><a href="/refund">Refund policy</a></div>
     <div><h5>Legal</h5><a href="/privacy">Privacy policy</a><a href="/terms">Terms of service</a><span class="small">© 2026 Bookmoth</span></div>
   </div>
@@ -141,6 +152,9 @@ bdesc = "He's home all day now. A warm, practical guide to getting your space ba
 (OUT / 'retired-husband-syndrome.html').write_text(page('Retired Husband Syndrome · Bookmoth', bdesc, externalize(bk_main + tail, 'book'),
     og('Retired Husband Syndrome: And 40 Ways to Survive It With Your Marriage Intact', bdesc, 'og-rhs.jpg', '/retired-husband-syndrome'), 'has-buybar'))
 
+# ---- new book pages
+exec((ROOT / 'tools' / 'book_pages.py').read_text())
+
 # ---- legal pages
 def legal(slug, title, intro, sections):
     secs = ''.join(f'<h2 style="font-size:24px;margin:34px 0 10px">{h}</h2>' + ''.join(f'<p>{p}</p>' for p in ps) for h, ps in sections)
@@ -202,12 +216,12 @@ print(sorted(p.name for p in OUT.iterdir()))
 
 # ---- link preview images
 from PIL import Image, ImageDraw
-for src, out in [('hero.webp', 'og-home.jpg'), ('book3d.webp', 'og-rhs.jpg')]:
+for src, out in [('hero.webp', 'og-home.jpg'), ('book3d.webp', 'og-rhs.jpg')] + [(f"bk-{b['img']}.webp", f"og-{b['slug']}.jpg") for b in BOOKS]:
     c = Image.new('RGB', (1200, 630), (248, 227, 225)); d = ImageDraw.Draw(c)
     d.ellipse((820, -180, 1380, 300), fill=(247, 231, 184)); d.ellipse((-160, 420, 300, 820), fill=(211, 232, 225))
     im = Image.open(OUT / 'img' / src).convert('RGBA'); im.thumbnail((2000, 590), Image.LANCZOS)
     c.paste(im, ((1200 - im.width) // 2, (630 - im.height) // 2), im); c.save(OUT / 'img' / out, quality=88)
 
 (OUT / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
-urls = ['/', '/retired-husband-syndrome', '/contact', '/refund', '/privacy', '/terms']
+urls = ['/', '/retired-husband-syndrome'] + ['/' + b['slug'] for b in BOOKS] + [ '/contact', '/refund', '/privacy', '/terms']
 (OUT / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{SITE}{u if u != "/" else ""}</loc></url>\n' for u in urls) + '</urlset>\n')

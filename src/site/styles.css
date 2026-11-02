@@ -450,3 +450,16 @@ body:not(.past-buy) .buybar { transform: translateY(110%); opacity: 0; pointer-e
   .product .art::after { bottom: 26px; }
   .intro { background: radial-gradient(ellipse 90% 45% at 50% 28%, #FFF1D9 0%, #F9E6E2 60%, #F6E3DF 100%); }
 }
+
+/* Catalog cards: equal rows — titles, subtitles and prices line up */
+.bk { display: flex; flex-direction: column; height: 100%; }
+.bk .cvr { flex: none; width: 100%; }
+.bk h3 { min-height: 2.4em; }
+.bk .s { min-height: 2.9em; line-height: 1.45; }
+.bk .p { margin-top: auto; }
+@media (max-width: 760px) {
+  .bk h3 { font-size: 17px; min-height: 3.6em; }
+  .bk .s { font-size: 13px; }
+}
+.bk .cvr3d { position: relative; aspect-ratio: 2 / 3; height: auto; }
+.bk .cvr3d img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: contain; object-position: center bottom; }

@@ -1,5 +1,5 @@
 const dlg = document.getElementById('checkout');
-  const CHECKOUT_URL = '';
+  const CHECKOUT_URL = 'https://bookmoths.lemonsqueezy.com/checkout/buy/37e5dcbb-523c-4074-8850-5bfdcca953c6?media=0&discount=0';
   document.querySelectorAll('.buy').forEach(x => x.addEventListener('click', () => CHECKOUT_URL ? (location.href = CHECKOUT_URL) : dlg.showModal()));
   document.getElementById('close-checkout').addEventListener('click', () => dlg.close());
   const mainBuy = document.querySelector('.buyrow');

@@ -12,7 +12,7 @@ CHECKOUTS = {
   'the-30-day-reset': 'https://bookmoths.lemonsqueezy.com/checkout/buy/94b6d042-7310-4144-9538-e900de05ac3f?media=0&discount=0',
   'the-one-person-business': 'https://bookmoths.lemonsqueezy.com/checkout/buy/37e5dcbb-523c-4074-8850-5bfdcca953c6?media=0&discount=0',
   'how-the-economy-actually-works': 'https://bookmoths.lemonsqueezy.com/checkout/buy/1ce10696-6b3c-4f9e-a23c-604293f29e5c?media=0&discount=0',
-  'tarot-for-real-life': '',
+  'tarot-for-real-life': 'https://bookmoths.lemonsqueezy.com/checkout/buy/463bb1fd-c013-409c-89e6-f676f6488304?media=0&discount=0',
   'your-birth-chart-decoded': '',
 }
 CHECKOUT_URL = 'https://bookmoths.lemonsqueezy.com/checkout/buy/11bbae8e-f0db-4797-9f1b-cd2b07cc631b?media=0&discount=0'

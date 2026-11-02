@@ -9,7 +9,7 @@ CHECKOUTS = {
   'fight-fair': 'https://bookmoths.lemonsqueezy.com/checkout/buy/0d2718b8-0e92-409f-b08f-0e5dc4843a98?media=0&discount=0',
   'raising-teens': 'https://bookmoths.lemonsqueezy.com/checkout/buy/6789c28d-2a25-472f-bd76-de626a58fc37?media=0&discount=0',
   'stop-overthinking': 'https://bookmoths.lemonsqueezy.com/checkout/buy/bbdcee84-ffc9-4a6c-b867-4f89c3aa0e1c?media=0&discount=0',
-  'the-30-day-reset': '',
+  'the-30-day-reset': 'https://bookmoths.lemonsqueezy.com/checkout/buy/94b6d042-7310-4144-9538-e900de05ac3f?media=0&discount=0',
   'the-one-person-business': '',
   'how-the-economy-actually-works': '',
   'tarot-for-real-life': '',

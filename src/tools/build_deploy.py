@@ -6,7 +6,7 @@ EMAIL = 'products000001@gmail.com'
 SITE = 'https://bookmoth-ten.vercel.app'
 # Lemon Squeezy checkout links for the new books: paste each link here once the product exists.
 CHECKOUTS = {
-  'fight-fair': '',
+  'fight-fair': 'https://bookmoths.lemonsqueezy.com/checkout/buy/0d2718b8-0e92-409f-b08f-0e5dc4843a98?media=0&discount=0',
   'raising-teens': '',
   'stop-overthinking': '',
   'the-30-day-reset': '',

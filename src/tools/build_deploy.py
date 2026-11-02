@@ -7,7 +7,7 @@ SITE = 'https://bookmoth-ten.vercel.app'
 # Lemon Squeezy checkout links for the new books: paste each link here once the product exists.
 CHECKOUTS = {
   'fight-fair': 'https://bookmoths.lemonsqueezy.com/checkout/buy/0d2718b8-0e92-409f-b08f-0e5dc4843a98?media=0&discount=0',
-  'raising-teens': '',
+  'raising-teens': 'https://bookmoths.lemonsqueezy.com/checkout/buy/6789c28d-2a25-472f-bd76-de626a58fc37?media=0&discount=0',
   'stop-overthinking': '',
   'the-30-day-reset': '',
   'the-one-person-business': '',

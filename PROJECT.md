@@ -33,8 +33,8 @@ Owner lives in Vietnam. Sales go through Lemon Squeezy (approved, live).
 
 ## Books
 - Out now: "Retired Husband Syndrome: And 40 Ways to Survive It With Your Marriage Intact" — 74-page PDF, 40 chapters, 6 worksheets. The PDF and manuscript are NOT in this public repo (paid product); the owner keeps them in the project zip.
-- Added Nov 2 2026 (pages live, checkout not yet connected; buy button shows "Checkout opens very soon"):
-  Fight Fair ($20), Raising Teens Without Losing Your Mind ($20), Stop Overthinking ($20), The 30-Day Reset ($15),
+- Added Nov 2 2026 (pages live, all checkouts connected Nov 2 2026; links in `CHECKOUTS` in build_deploy.py):
+  Fight Fair ($20), Raising Teens Without Losing Your Mind ($20), Stop Overthinking ($15), The 30-Day Reset ($15),
   The One-Person Business ($20), How the Economy Actually Works ($20), Tarot for Real Life ($15), Your Birth Chart, Decoded ($20).
   Page data: `src/site/books.json`; generator: `src/tools/book_pages.py`; covers: `src/site/img/bk-*.webp`.
   To connect payment: create the Lemon Squeezy product (upload the PDF there), paste its checkout link into `CHECKOUTS` in `build_deploy.py`, rebuild, deploy.

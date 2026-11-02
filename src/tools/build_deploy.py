@@ -11,7 +11,7 @@ CHECKOUTS = {
   'stop-overthinking': 'https://bookmoths.lemonsqueezy.com/checkout/buy/bbdcee84-ffc9-4a6c-b867-4f89c3aa0e1c?media=0&discount=0',
   'the-30-day-reset': 'https://bookmoths.lemonsqueezy.com/checkout/buy/94b6d042-7310-4144-9538-e900de05ac3f?media=0&discount=0',
   'the-one-person-business': 'https://bookmoths.lemonsqueezy.com/checkout/buy/37e5dcbb-523c-4074-8850-5bfdcca953c6?media=0&discount=0',
-  'how-the-economy-actually-works': '',
+  'how-the-economy-actually-works': 'https://bookmoths.lemonsqueezy.com/checkout/buy/1ce10696-6b3c-4f9e-a23c-604293f29e5c?media=0&discount=0',
   'tarot-for-real-life': '',
   'your-birth-chart-decoded': '',
 }
